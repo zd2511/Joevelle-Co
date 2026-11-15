@@ -19,3 +19,24 @@
 .portfolio-info>a b{font-size:14px;margin-left:5px}
 @media(max-width:1000px){.portfolio-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:520px){.portfolio-grid{grid-template-columns:1fr}.portfolio-preview{height:230px}.portfolio-preview iframe{height:460px}.portfolio-info p{min-height:0}}
+
+/* Services and contact additions */
+.services-section{padding-top:12px;padding-bottom:35px}
+.services-intro{max-width:700px;margin:0 auto 24px;text-align:center;color:#806e7e;font:italic 17px/1.5 "Cormorant Garamond",serif}
+.services-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.service-card{background:#fff9f5d9;border:1px solid #eadce7;border-radius:15px;padding:22px 22px 20px;box-shadow:0 8px 22px #745b7618}
+.service-symbol{font:32px "Cormorant Garamond";color:#a78bac}
+.service-card h3{font:500 25px "Cormorant Garamond",serif;color:#634b65;margin:6px 0 12px}
+.service-card ul{list-style:none;margin:0;padding:0;color:#806e7e;font:13px/1.9 "DM Sans",sans-serif}
+.service-card li:before{content:"♡";color:#a1849f;margin-right:9px}
+.services-more{text-align:center;font:italic 26px "Cormorant Garamond",serif;color:#765873;margin:22px 0 0}
+.services-more span{color:#b89568}
+.contact-details{display:flex;flex-wrap:wrap;justify-content:center;gap:9px 18px;margin-top:12px;position:relative;z-index:1}
+.contact-link{font:12px "DM Sans",sans-serif;color:#70536f;text-decoration:underline;text-underline-offset:3px}
+.contact-link:hover{color:#4f3b52}
+.coming-dialog{text-align:center;max-width:390px}
+.coming-dialog form{align-items:center}
+.coming-dialog h2{font-size:48px;color:#765873;margin:0}
+.coming-dialog p{font:15px/1.5 "Cormorant Garamond",serif;color:#806e7e;margin:0 0 8px}
+.coming-flower{font-size:30px;color:#b89568}
+@media(max-width:760px){.services-grid{grid-template-columns:1fr}.service-card{padding:18px}.services-intro{font-size:16px}.contact-details{flex-direction:column;align-items:center}}

@@ -29,3 +29,13 @@ document.getElementById("newsletter-form").addEventListener("submit", event => {
   message.textContent = "Thank you! The signup form is a demo and still needs an email marketing connection.";
   event.target.reset();
 });
+
+// Shop is marked as coming soon until the online store is ready.
+const shopDialog = document.getElementById("shop-dialog");
+["shop-link", "footer-shop-link"].forEach(id => {
+  const link = document.getElementById(id);
+  if (link) link.addEventListener("click", event => {
+    event.preventDefault();
+    shopDialog.showModal();
+  });
+});
